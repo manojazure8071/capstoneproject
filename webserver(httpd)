@@ -1,0 +1,5 @@
+sudo yum install httpd wget unzip -y
+sudo systemctl enable httpd
+sudo systemctl start httpd
+sudo wget https://www.free-css.com/assets/files/free-css-templates/download/page283/moto.zip
+sudo cp -rp moto-html/* /var/www/html/
